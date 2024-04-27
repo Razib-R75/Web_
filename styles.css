@@ -6,30 +6,42 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #252222;
+    background-image: url('pexels-stywo-1261728.jpg'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the background image */
 }
+
+
 .login-container {
-    background-color: #958585;
+    background-color: #586d70;
     padding: 25px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust the width of the container */
 }
+
 .login-container h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #fff; /* Set text color to white */
 }
+
 .input-group {
     margin-bottom: 15px;
 }
+
 .input-group label {
     display: block;
     margin-bottom: 5px;
+    color: #fff; /* Set label text color to white */
 }
+
 .input-group input {
-    width: 100%;
+    width: calc(100% - 20px); /* Adjust input width to accommodate padding */
     padding: 10px;
     border: 1px solid #ccc;
 }
+
 button {
     width: 100%;
     padding: 10px;
@@ -39,6 +51,7 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 button:hover {
-    background-color: #2640d0;
+    background-color: #1a2c8a; /* Adjust hover color */
 }
